@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 mongoose.set('strictQuery', false);
 // Connect MongoDB at default port 27017.
-mongoose.connect('mongodb://127.0.0.1/bromas', {
+mongoose.connect('mongodb://localhost:27017/bromas', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }, (err) => {
